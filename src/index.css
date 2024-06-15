@@ -1,0 +1,67 @@
+.form-container {
+  width: 50%;
+  font-size:15px;
+  margin: 0 auto; 
+  background-color: #f0f0f0; 
+  padding: 20px; 
+  border-radius: 5px; 
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="tel"],
+select {
+  width: 100%;
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.phone-input {
+  display: flex;
+  gap: 1rem;
+}
+
+.phone-input input[type="tel"] {
+  flex: 1;
+  width:5rem;
+}
+
+select {
+  appearance: none;
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 20 20' fill='currentColor'%3E%3Cpath fill-rule='evenodd' d='M5 10a1 1 0 000-2v4a1 1 0 102 0v-4a1 1 0 00-2 0zm7 0a1 1 0 000-2v4a1 1 0 102 0v-4a1 1 0 00-2 0zm7 0a1 1 0 000-2v4a1 1 0 102 0v-4a1 1 0 00-2 0z' clip-rule='evenodd'%3E%3C/svg%3E");
+  background-repeat: no-repeat;
+  background-position: right 10px center;
+}
+
+button[type="submit"] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button[type="submit"]:disabled {
+  background-color: #ccc;
+  cursor: default;
+}
+
+.error {
+  color: red;
+  font-size: 0.8rem;
+  margin-top: 5px;
+}
